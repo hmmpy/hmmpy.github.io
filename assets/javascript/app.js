@@ -7,7 +7,7 @@ class _app {
   skippedIntro = false;
   backgroundToggler = false;
   shouldIgnoreVideo =  false;
-  effects = ['flash', 'pulse'];
+  effects = ['pulse'];
   // 'bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'
   brandDescription = ['north coast warlords', 'legend of the downhill', '1996 in akagi', 'jacksonville, fl'];
 
