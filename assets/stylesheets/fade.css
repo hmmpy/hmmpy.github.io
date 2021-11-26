@@ -1,0 +1,61 @@
+.enterScreen{
+  position:absolute;
+  background:black;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index:100;
+  text-align: left;
+}
+
+button.style{
+  color: white;
+  font-size: 4vh;
+  margin-top: 65vh;
+  margin-left: 10vw;
+  font-style: italic;
+  border: none;
+  background-color: inherit;
+}
+
+
+/* fade*/
+.fade {
+    -webkit-animation-duration: 1s;animation-duration: 1s;
+    -webkit-animation-fill-mode: both;animation-fill-mode: both;
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+    z-index: -30;
+}
+
+@keyframes fadeOut {
+   0% {opacity: 1;}
+   100% {opacity: 0;}
+}
+
+@-webkit-keyframes fadeOut {
+            0% {opacity: 1;}
+            100% {opacity: 0;}
+}
+/* end fade*/
+
+/* fade in*/
+.fadeIn {
+    -webkit-animation-duration: 1s;animation-duration: 1s;
+    -webkit-animation-fill-mode: both;animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    z-index: -10;
+}
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+}
+/* end fade in*/
