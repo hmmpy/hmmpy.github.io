@@ -170,7 +170,7 @@ input {
 
 /* particles */
 #particles-js {
-  position: fixed;
+  position: static;
   width: 100vw;
   height: 100vh;
   background-color: transparent;
