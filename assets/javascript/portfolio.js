@@ -179,6 +179,7 @@ const clearCursor = () => {
 // remove enter screen
 function remove() {
   document.getElementById("enter").className += " fade";
+  document.getElementById("particles-js").className += " fadeInParticles";
   //document.getElementById("p1").className -= " enterScreen";
   document.getElementById("enterButton").className = "style fade";
   document.getElementById("enterButton").disabled = true;
